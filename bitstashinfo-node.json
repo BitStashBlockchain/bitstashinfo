@@ -1,0 +1,41 @@
+{
+  "version": "0.0.1",
+  "chain": "mainnet",
+  "services": [
+    "db",
+    "p2p",
+    "header",
+    "block",
+    "transaction",
+    "contract",
+    "mempool",
+    "server"
+  ],
+  "servicesConfig": {
+    "db": {
+      "mysql": {
+        "uri": "mysql://XXXXXXXXXXX:XXXXXXXXXXX@XXXXXXXXXX/XXXXXXXXXXXXXXXXXX"
+      },
+      "rpc": {
+        "protocol": "http",
+        "host": "localhost",
+        "port": 3889,
+        "user": "XXXXXXXXXXXXX",
+        "password": "XXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "p2p": {
+      "peers": [
+        {
+          "ip": {
+            "v4": "127.0.0.1"
+          },
+          "port": 3777
+        }
+      ]
+    },
+    "server": {
+      "port": 3001
+    }
+  }
+}
