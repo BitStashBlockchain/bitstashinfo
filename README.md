@@ -1,5 +1,5 @@
 # bitstashinfo
 
-[API documentation](https://github.com/bitstashproject/bitstashinfo-api/blob/master/README.md)
+[API documentation](https://github.com/bitstashco/bitstashinfo-api/blob/master/README.md)
 
-[Deploy documentation](https://github.com/bitstashproject/bitstashinfo/blob/master/doc/deploy.md)
+[Deploy documentation](https://github.com/bitstashco/bitstashinfo/blob/master/doc/deploy.md)
